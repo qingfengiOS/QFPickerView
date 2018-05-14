@@ -1,8 +1,8 @@
 {
   "name": "QFPickerView",
   "version": "0.1.0",
-  "summary": "A short description of QFPickerView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "QFPickerView",
+  "description": "'A short description of QFPickerView.'",
   "homepage": "https://github.com/qingfengiOS/QFPickerView",
   "license": {
     "type": "MIT",

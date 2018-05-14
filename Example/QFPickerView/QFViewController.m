@@ -7,7 +7,7 @@
 //
 
 #import "QFViewController.h"
-@import QFPickerView;
+#import "QFPickerView.h"
 
 @interface QFViewController ()
 

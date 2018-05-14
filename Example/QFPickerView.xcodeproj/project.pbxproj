@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42848923E561ABA3B885E8A0 /* Pods_QFPickerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB526F21D02D81244AF0787 /* Pods_QFPickerView_Example.framework */; };
+		15F35A9F67C1A85488CF04FC /* libPods-QFPickerView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D50C147DD5C59FF2B8F8E223 /* libPods-QFPickerView_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -61,8 +61,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		908C22549D503D02E74259BE /* QFPickerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QFPickerView.podspec; path = ../QFPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFB526F21D02D81244AF0787 /* Pods_QFPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58F7391F374DC2CDCFC2BEF /* Pods-QFPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFPickerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D50C147DD5C59FF2B8F8E223 /* libPods-QFPickerView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFPickerView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE12DD8D618FE21A8DB2F0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				42848923E561ABA3B885E8A0 /* Pods_QFPickerView_Example.framework in Frameworks */,
+				15F35A9F67C1A85488CF04FC /* libPods-QFPickerView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				69CF5E1A74A71692B7CDB689 /* Pods_QFPickerView_Tests.framework */,
-				AFB526F21D02D81244AF0787 /* Pods_QFPickerView_Example.framework */,
+				D50C147DD5C59FF2B8F8E223 /* libPods-QFPickerView_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,7 +201,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				74607B1EC306055EBBD7A34F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,24 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74607B1EC306055EBBD7A34F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QFPickerView/QFPickerView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QFPickerView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
