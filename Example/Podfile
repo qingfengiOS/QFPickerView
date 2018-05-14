@@ -3,9 +3,4 @@ use_frameworks!
 target 'QFPickerView_Example' do
   pod 'QFPickerView', :path => '../'
 
-  target 'QFPickerView_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end

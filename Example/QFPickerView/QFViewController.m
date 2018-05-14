@@ -7,6 +7,7 @@
 //
 
 #import "QFViewController.h"
+@import QFPickerView;
 
 @interface QFViewController ()
 
@@ -17,7 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+}
+
+- (IBAction)click:(id)sender {
+
+    QFPickerView *picker = [[QFPickerView alloc]initWithColumuns:1 WithDataSource:@[@"1"] response:^(NSString *str) {
+        NSLog(@"%@",str);
+    }];
+    [picker show];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2288C79D49BD226037CCEB3A /* Pods_QFPickerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046BF0370BB7B3A715C330B4 /* Pods_QFPickerView_Example.framework */; };
-		57E6BF2EF86B8B0D66987D3A /* Pods_QFPickerView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D6243C7937FA0CCF32BFD9 /* Pods_QFPickerView_Tests.framework */; };
+		42848923E561ABA3B885E8A0 /* Pods_QFPickerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB526F21D02D81244AF0787 /* Pods_QFPickerView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		046BF0370BB7B3A715C330B4 /* Pods_QFPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		136354D7124631E1F53D83AC /* Pods-QFPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFPickerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFPickerView_Tests/Pods-QFPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BE969D5107A727AB02C9C93 /* Pods-QFPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFPickerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		290342D0176A492F13ED7196 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		290342D0176A492F13ED7196 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QFPickerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFPickerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +57,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		69CF5E1A74A71692B7CDB689 /* Pods_QFPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80D6243C7937FA0CCF32BFD9 /* Pods_QFPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		908C22549D503D02E74259BE /* QFPickerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QFPickerView.podspec; path = ../QFPickerView.podspec; sourceTree = "<group>"; };
-		B39781856897E2704A66D41B /* Pods-QFPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFPickerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFPickerView_Tests/Pods-QFPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		908C22549D503D02E74259BE /* QFPickerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QFPickerView.podspec; path = ../QFPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFB526F21D02D81244AF0787 /* Pods_QFPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58F7391F374DC2CDCFC2BEF /* Pods-QFPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFPickerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FEE12DD8D618FE21A8DB2F0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FEE12DD8D618FE21A8DB2F0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2288C79D49BD226037CCEB3A /* Pods_QFPickerView_Example.framework in Frameworks */,
+				42848923E561ABA3B885E8A0 /* Pods_QFPickerView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				57E6BF2EF86B8B0D66987D3A /* Pods_QFPickerView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +96,6 @@
 			children = (
 				1BE969D5107A727AB02C9C93 /* Pods-QFPickerView_Example.debug.xcconfig */,
 				C58F7391F374DC2CDCFC2BEF /* Pods-QFPickerView_Example.release.xcconfig */,
-				136354D7124631E1F53D83AC /* Pods-QFPickerView_Tests.debug.xcconfig */,
-				B39781856897E2704A66D41B /* Pods-QFPickerView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -134,8 +128,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				046BF0370BB7B3A715C330B4 /* Pods_QFPickerView_Example.framework */,
-				80D6243C7937FA0CCF32BFD9 /* Pods_QFPickerView_Tests.framework */,
+				69CF5E1A74A71692B7CDB689 /* Pods_QFPickerView_Tests.framework */,
+				AFB526F21D02D81244AF0787 /* Pods_QFPickerView_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +201,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				03746C10AAEB95651E833BD2 /* [CP] Embed Pods Frameworks */,
+				74607B1EC306055EBBD7A34F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,11 +216,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "QFPickerView_Tests" */;
 			buildPhases = (
-				750C1E33F00F862F304C0F12 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D1742D3AA3261508BF6EA57E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +240,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = qingfengiOS;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DZK6T3AW3W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,24 +290,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03746C10AAEB95651E833BD2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QFPickerView/QFPickerView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QFPickerView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4F7D9A00F4A50498CCA889E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,40 +308,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		750C1E33F00F862F304C0F12 /* [CP] Check Pods Manifest.lock */ = {
+		74607B1EC306055EBBD7A34F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QFPickerView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1742D3AA3261508BF6EA57E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Tests/Pods-QFPickerView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QFPickerView/QFPickerView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QFPickerView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Tests/Pods-QFPickerView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFPickerView_Example/Pods-QFPickerView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -504,6 +463,7 @@
 			baseConfigurationReference = 1BE969D5107A727AB02C9C93 /* Pods-QFPickerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QFPickerView/QFPickerView-Prefix.pch";
 				INFOPLIST_FILE = "QFPickerView/QFPickerView-Info.plist";
@@ -519,6 +479,7 @@
 			baseConfigurationReference = C58F7391F374DC2CDCFC2BEF /* Pods-QFPickerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QFPickerView/QFPickerView-Prefix.pch";
 				INFOPLIST_FILE = "QFPickerView/QFPickerView-Info.plist";
@@ -531,7 +492,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 136354D7124631E1F53D83AC /* Pods-QFPickerView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,7 +515,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B39781856897E2704A66D41B /* Pods-QFPickerView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

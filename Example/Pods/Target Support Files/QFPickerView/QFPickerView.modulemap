@@ -1,0 +1,6 @@
+framework module QFPickerView {
+  umbrella header "QFPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
